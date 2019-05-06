@@ -75,7 +75,9 @@ public class TrainServiceImpl implements TrainService {
 	@Override
 	public void updateTicketOrder(Map map) {
 		trainDao.updateTicketOrder(map);
+		List<Map> ticketList = trainDao.getTicketList();
 		redisTemplate.delete("ticketList");
+		redisTemplate.opsForValue().set("ticketList",ticketList);
 	}
 
 	@Override
