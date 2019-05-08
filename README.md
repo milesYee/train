@@ -4,8 +4,9 @@
 这些技术的新手快速入门，当然精通其中的技术另当别论，需要在懂得使用的基础上继续深入挖掘。
 
 技术框架：Spring、SpringMVC、MyBatis、Bootstrap
+
 开发工具：idea、maven3.5、MySQL5.7、Tomcat8、RabbitMQ、Dubbo、Zookeeper、Redis
+
 运行环境：jdk1.8
-目录结构：
 
 
