@@ -7,11 +7,9 @@
 
 
 技术框架：Spring、SpringMVC、MyBatis、Bootstrap
-开发工具：Myeclipse2017CI、maven3.5、MySQL5.7、Tomcat8
+开发工具：idea、maven3.5、MySQL5.7、Tomcat8、RabbitMQ、Dubbo、Zookeeper、Redis
 运行环境：jdk1.8
 目录结构：
-
-![train.png](https://github.com/JasonMHo/train/blob/master/pic/train.png)
 
 
 使用框架可以帮助我们更好的理清思路，代码层次结构是怎样一层一层调用的，每一层只负责自己的事的好处在哪，代码一重复就要考虑提取公共部分，以达到提高复用性，松耦合的目的。
@@ -59,38 +57,4 @@ jsp页面提取了公共部分放在 common 目录下，页面内只使用html�
 8. 编写 service 业务层
 9. 编写 cotroller 控制器
 10. 视图代码：前台 jsp 页面
-
-
-
-效果：
-## 登录页面
-
-![bootstrap_login.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_login.gif)
-
-
-## 蒙板效果
-
-![bootstrap_train_modal.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_train_modal.gif)
-
-
-## 分页效果
-
-用前端框架实现的，效果还不错
-![bootstrap_train_page.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_train_page.gif)
-
-
-## 搜索
-
-![bootstrap_train_search.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_train_search.gif)
-
-
-## 添加和删除
-
-这个功能是自己写的，比较简单
-![bootstrap_train_add.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_train_add.gif)
-
-
-## 响应式效果
-
-![bootstrap_train_boot.gif](https://github.com/JasonMHo/train/blob/master/pic/bootstrap_train_boot.gif)
 
