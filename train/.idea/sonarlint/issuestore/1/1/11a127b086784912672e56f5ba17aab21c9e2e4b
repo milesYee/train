@@ -1,0 +1,8 @@
+
+zsquid:UselessImportCheck"VRemove this unused import 'org.springframework.data.redis.serializer.RedisSerializer'.(èÈ„­
+]squid:UselessImportCheck	":Remove this unused import 'cn.train.util.RedisClientPool'.(àÂŸ
+
+xsquid:UselessImportCheck"TRemove this unused import 'org.springframework.data.redis.core.StringRedisTemplate'.(Á•½
+Usquid:S1155?">Use isEmpty() to check whether the collection is empty or not.(éÁı
+gsquid:S1192="KDefine a constant instead of duplicating this literal "ticketList" 5 times.(ÖíÚ‘øÿÿÿÿ
+Usquid:UselessImportCheck"1Remove this unused import 'cn.train.entity.User'.(ãœßò

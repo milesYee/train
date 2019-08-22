@@ -96,6 +96,10 @@
 					<td>里程（千米）</td>
 					<td id="trainMile"></td>
 				</tr>
+				<tr>
+					<td>余票（张）</td>
+					<td id="avaTicket"></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
@@ -132,6 +136,7 @@
                   <li><label>车型：</label><input type="text" id="a_trainType" name="type" value="">
                   					<span style="color:red;font-weight: bold;">*</span></li>
                   <li><label>运行时间：</label><input type="text" id="a_trainRuntime" name="runtime" value=""></li>
+				   <li><label>余票：</label><input type="number" id="a_avaTicket" name="ava_ticket" value=""></li>
                </ul>
 	</div>
 	<div class="modal-footer">
