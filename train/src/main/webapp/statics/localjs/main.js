@@ -65,6 +65,7 @@ $('.viewtrain').click(function(e){
 				$("#trainType").html(m.type);
 				$("#trainRuntime").html(m.runtime);
 				$("#trainMile").html(m.mile);
+				$("#avaTicket").html(m.ava_ticket);
 			}
 		}
 	});
@@ -182,6 +183,7 @@ $('.addtraincancel').click(function(e) {
 	$('#a_trainArrTime').val('');
 	$('#a_trainType').val('');
 	$('#a_trainRuntime').val('');
+	$('#a_avaTicket').val('');
 });
 
 

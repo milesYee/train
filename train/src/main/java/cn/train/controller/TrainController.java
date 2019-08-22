@@ -56,6 +56,10 @@ public class TrainController {
 		Object userObj = session.getAttribute("user");
 		if(userObj != null){
 			try {
+				int ava_ticket =  addTraininfo.getAva_ticket();
+				if(ava_ticket==0){
+					addTraininfo.setAva_ticket(300);
+				}
 				trainService.addTraininfo(addTraininfo);
 				System.out.println(addTraininfo.getArrival_station()+"\n\n\n");
 				System.out.println(addTraininfo.getMile()+"\n\n\n");
