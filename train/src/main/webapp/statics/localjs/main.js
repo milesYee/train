@@ -15,7 +15,7 @@ $("#myDelTrainBtn").click(function(){
     			url: "delete.html",
     			data: {"trainNos":selectIds},
     			dataType: "html",
-    	  		timeout:1000,
+    	  		timeout:10000,
     			error: function () {
     			   alert("删除失败error");
     				window.location.href = "backend/trainList.html";
@@ -46,7 +46,7 @@ $('.viewtrain').click(function(e){
 		type: 'POST',
 		data: {id:m_id},
 		dataType: 'html',
-		timeout: 1000,
+		timeout: 10000,
 		error: function(){
 			alert("error");
 		},

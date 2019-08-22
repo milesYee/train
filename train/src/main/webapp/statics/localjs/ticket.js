@@ -5,7 +5,7 @@ function orderTicket(trainNo){
 		url: "orderTicket.html",
 		data: {"trainNo":trainNo},
 		dataType: "html",
-		timeout:1000,
+		timeout:60000,
 		error: function () {
 			alert("订票失败，系统错误");
 			window.location.href = "backend/trainList.html";

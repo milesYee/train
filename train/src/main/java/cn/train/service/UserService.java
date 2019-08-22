@@ -1,6 +1,7 @@
 package cn.train.service;
 
 import java.util.List;
+import java.util.Map;
 
 import cn.train.entity.User;
 
@@ -23,6 +24,8 @@ public interface UserService {
 	
 	//根据id获取用户
 	public User getUserById(int id) throws Exception;
+
+	public String userAccept(Map param) throws Exception;
 
 }
 
