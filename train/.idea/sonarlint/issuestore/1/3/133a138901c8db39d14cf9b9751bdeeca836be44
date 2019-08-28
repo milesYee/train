@@ -1,13 +1,15 @@
 
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(•ò¾©ıÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(«³³øÿÿÿÿ
-Nsquid:S1854"9Remove this useless assignment to local variable "train".(„ı•ì
-asquid:S1192"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(®°›—üÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(®°›—üÿÿÿÿ
+?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148n"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(«³³øÿÿÿÿ
+T
+squid:S106@"9Replace this use of System.out or System.err by a logger.(®°›—üÿÿÿÿ
+csquid:S1192@"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(®°›—üÿÿÿÿ
+T
+squid:S106A"9Replace this use of System.out or System.err by a logger.(•ò¾©ıÿÿÿÿ
+hsquid:S44885"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(óì·³8‡¹€ñÊ-
+?squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»—í8¡¶²ñÊ-
+Psquid:S1854V"9Remove this useless assignment to local variable "train".(„ı•ì
+?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,10 +1,10 @@
 
-^squid:S1192J"HDefine a constant instead of duplicating this literal "trainNo" 3 times.(Ÿƒ–L
-?squid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-nsquid:S00117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü®¡‚şÿÿÿÿ
-Usquid:S2130B"9Use "Integer.parseInt" for this string-to-int conversion.(Ü®¡‚şÿÿÿÿ
-esquid:S1192I"IDefine a constant instead of duplicating this literal "userName" 3 times.(¤Ò‚öûÿÿÿÿ
 {squid:UselessImportCheck"RRemove this unused import 'org.springframework.web.bind.annotation.RequestMethod'.(Ê™Ğÿûÿÿÿÿ
-\squid:UselessImportCheck"3Remove this unused import 'net.sf.json.JSONString'.(‘Ó¤ûÿÿÿÿ
 ?squid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+esquid:S1192I"IDefine a constant instead of duplicating this literal "userName" 3 times.(¤Ò‚öûÿÿÿÿ
+?squid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+^squid:S1192J"HDefine a constant instead of duplicating this literal "trainNo" 3 times.(Ÿƒ–L
+\squid:UselessImportCheck"3Remove this unused import 'net.sf.json.JSONString'.(‘Ó¤ûÿÿÿÿ
+Usquid:S2130B"9Use "Integer.parseInt" for this string-to-int conversion.(Ü®¡‚şÿÿÿÿ
 |squid:UselessImportCheck	"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ
+nsquid:S00117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü®¡‚şÿÿÿÿ

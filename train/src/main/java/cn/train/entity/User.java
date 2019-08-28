@@ -61,8 +61,7 @@ public class User implements Serializable {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
-	
-	
+
 
 }
 

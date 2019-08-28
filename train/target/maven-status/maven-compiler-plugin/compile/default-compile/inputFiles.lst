@@ -1,0 +1,15 @@
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/controller/UserController.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/entity/User.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/service/UserService.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/dao/UserDao.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/controller/LoginController.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/util/StringUtils.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/controller/TicketController.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/dao/TrainDao.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/service/impl/TrainServiceImpl.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/util/RedisClientPool.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/service/impl/UserServiceImpl.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/entity/Traininfo.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/controller/TrainController.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/service/TrainService.java
+/Users/miles/javaProjects/train/train/src/main/java/cn/train/common/JsonDateValueProcessor.java

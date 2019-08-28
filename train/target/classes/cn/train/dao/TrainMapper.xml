@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.train.dao.TrainDao">
+
+  <insert id="addTraininfo" parameterType="Traininfo">
+      insert into train_info values (#{train_no},#{start_station},#{arrival_station},
+      #{start_time},#{arrival_time},#{type},#{runtime},#{mile},#{ava_ticket})
+  </insert>
+
+  <select id="getTraininfoList" resultType="Traininfo">
+      select * from train_info
+  </select>
+  
+  <delete id="deleteTraininfoById" parameterType="int">
+       DELETE from train_info where train_no = #{train_no}
+  </delete>
+  
+  <select id="getTraininfoDetail" parameterType="int" resultType="Traininfo">
+          select * from train_info where train_no = #{trainNo}
+  </select>
+  
+  <select id="getTicketList" resultType="java.util.Map">
+      select * from ticket
+  </select>
+
+    <select id="getTicketOrderByUser" resultType="java.util.Map" parameterType="java.lang.String">
+        select * from ticket where userName = #{userName}
+    </select>
+
+    <update id="updateTicketOrder" parameterType="java.util.Map">
+        update ticket set ticketNum=ticketNum+1 where userName=#{userName}
+    </update>
+
+    <update id="updateTrainInfo" parameterType="java.util.Map">
+        update train_info set ava_ticket = ava_ticket-1 where train_no=#{trainNo}
+    </update>
+
+    <insert id="addTicketOrder" parameterType="java.util.Map">
+        insert into ticket(userName, ticketNum) VALUES (#{userName},1)
+    </insert>
+</mapper>

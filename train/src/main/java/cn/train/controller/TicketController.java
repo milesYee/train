@@ -5,6 +5,8 @@ import cn.train.entity.User;
 import cn.train.service.TrainService;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONString;
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -29,6 +31,8 @@ import java.util.Map;
  */
 @Controller
 public class TicketController {
+
+	private static final Logger logger = Logger.getLogger("liveness");
 
 	@Resource
 	private AmqpTemplate amqpTemplate;
@@ -89,9 +93,11 @@ public class TicketController {
 				orderResult.put("resultCode","0000");
 				orderResult.put("resultMsg","订票成功");
 				JSONObject object = JSONObject.fromObject(orderResult);
+				logger.info("订票MQ消息："+orderResult);
 				amqpTemplate.convertAndSend("q.myQueue", object.toString());
 			}
 		}catch(Exception e){
+			logger.info(e);
 			e.printStackTrace();
 		}
 

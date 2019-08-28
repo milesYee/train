@@ -69,6 +69,7 @@ public class UserServiceImpl implements UserService {
 		user.setRealname(userName);
 		user.setPassword(passWord);
 		user.setTelphone(phone);
+		user.setUsername(userName);
 		int i = addUser(user);
 
 		return "0000";
