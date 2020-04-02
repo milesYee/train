@@ -1,15 +1,18 @@
 
-?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-?squid:S1148n"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-T
-squid:S106B"9Replace this use of System.out or System.err by a logger.(«³ž³øÿÿÿÿ
+csquid:S1192@"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(®°›—üÿÿÿÿ
+?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\squid:S3752!">Add a "method" parameter to this "@RequestMapping" annotation.(ÿ×Ä†8ÑÝ±øÑ-
+Psquid:S1854V"9Remove this useless assignment to local variable "train".(„ý•ì
 T
 squid:S106@"9Replace this use of System.out or System.err by a logger.(®°›—üÿÿÿÿ
-csquid:S1192@"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(®°›—üÿÿÿÿ
+?squid:S1148n"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»—í8¡¶²ñÊ-
+?squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 T
 squid:S106A"9Replace this use of System.out or System.err by a logger.(•ò¾©ýÿÿÿÿ
-hsquid:S44885"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(óì·³8‡¹€ñÊ-
-?squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»—í8¡¶²ñÊ-
-Psquid:S1854V"9Remove this useless assignment to local variable "train".(„ý•ì
-?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+asquid:S3752N">Add a "method" parameter to this "@RequestMapping" annotation.(ž¸ÔÑÿÿÿÿÿ8ÑÝ±øÑ-
+\squid:S3752d">Add a "method" parameter to this "@RequestMapping" annotation.(™×¾»8ÑÝ±øÑ-
+hsquid:S44885"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(óì·³8ÑÝ±øÑ-
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(«³ž³øÿÿÿÿ

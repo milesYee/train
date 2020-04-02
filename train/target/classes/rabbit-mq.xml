@@ -12,7 +12,7 @@
     <!--配置connection-factory，指定连接rabbit server参数 -->
     <rabbit:connection-factory
             id="connectionFactory" username="guest" password="guest"
-            host="localhost" port="5672" virtual-host="/"/> <!-- virtual-host=vhostYKL"/"是默认的虚拟机路径 -->
+            host="10.37.129.2" port="5672" virtual-host="/"/> <!-- virtual-host=vhostYKL"/"是默认的虚拟机路径 -->
 
     <!--通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
     <rabbit:admin connection-factory="connectionFactory" />

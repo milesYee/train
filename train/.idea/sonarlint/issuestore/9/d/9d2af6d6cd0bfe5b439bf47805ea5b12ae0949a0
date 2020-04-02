@@ -1,4 +1,6 @@
 
-Osquid:S1854A"8Remove this useless assignment to local variable "user".(Ç­‚û
-?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+asquid:S3752%">Add a "method" parameter to this "@RequestMapping" annotation.(ƒ†ñúÿÿÿÿ8ÐÝ±øÑ-
 ?squid:S1148L"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Osquid:S1854A"8Remove this useless assignment to local variable "user".(Ç­‚û
+\squid:S37529">Add a "method" parameter to this "@RequestMapping" annotation.(¢¢òš8ÐÝ±øÑ-

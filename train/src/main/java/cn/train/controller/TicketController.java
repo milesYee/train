@@ -97,7 +97,7 @@ public class TicketController {
 				amqpTemplate.convertAndSend("q.myQueue", object.toString());
 			}
 		}catch(Exception e){
-			logger.info(e);
+			logger.error(e);
 			e.printStackTrace();
 		}
 
